@@ -86,6 +86,8 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)  { 
    .capability-main-text{
     font-size: 2rem;
+    top:60%
+    
    } 
    .capability-unlock-text{
     font-size: 0.8rem;
@@ -93,4 +95,18 @@
    .capability-choose-us-text {
     width: 90%;
     }
+    .capability-main-img{
+        height: 60vh;
+        width: 100%;
+        background-size: inherit;
+    }
+    .capability-second-img {
+        height: 50vh;
+        width: 100%;
+    }
+    .capability-service-img{
+        height: 50vh;
+        width: 100%;
+    }
+
   }
