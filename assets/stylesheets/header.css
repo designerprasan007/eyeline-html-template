@@ -1,0 +1,49 @@
+.navbar-expand-lg {
+    z-index: 102;
+  }
+
+  .logo_header_img{
+    height: 100px;
+    width: 100px;
+  }
+.nav-item {
+a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+  font-weight: 300;
+  letter-spacing: 2px;
+  span {
+    display: inline-block;
+    &:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 0;
+        height: 2px;
+        background-color: #e82326;
+        -webkit-transition: opacity .3s ease,width .3s ease;
+        -moz-transition: opacity .3s ease,width .3s ease;
+        -o-transition: opacity .3s ease,width .3s ease;
+        transition: opacity .3s ease,width .3s ease;
+        -ms-transition: opacity .3s ease,width .3s ease;
+    }
+  }
+
+  &:hover {
+    span {
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+  
+}
+}
+
+.header_div{
+    padding: 2%;
+  }

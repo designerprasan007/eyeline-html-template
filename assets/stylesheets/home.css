@@ -1,0 +1,113 @@
+.hero-carousel-text{
+    position: absolute;
+    z-index: 100;
+    top: 25%;
+    left: 25%;
+    color: white;
+    text-align: center;
+}
+.hero-text-title{
+    font-weight: 100;
+    font-size: 2em;
+    text-decoration: underline;
+}
+.hero-text-description{
+    font-weight: 400;
+    font-size: 5em;
+}
+.carousel-image{
+    height: 80vh;
+    width: 100vw;
+}
+.hero-story{
+    background-color: #F4F7FA;
+    height: 100vh;
+}
+.hero-story-image{
+    height: 80%;
+    width: 100%;
+}
+.modal-fullscreen .modal-content{
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.modal-header{
+    border: none !important;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.close-btn{
+    display: inline;
+    justify-content: right;
+}
+#story-video{
+    height: 100%;
+    width: 100%;
+    padding:10%
+}
+.hero-reel-img{
+    height: 400px;
+    width: 100%;
+}
+.hero-project-story{
+    padding-left: 20%;
+    padding-right: 20%
+}
+.hero-artboard-img{
+    height: 300px;
+    width: 100%;
+}
+.hero-portfolio-btn{
+    background-color: #313439;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+.hero-counts{
+    background-color: #F4F7FA;
+    padding: 5% 15% 5% 15%;
+}
+.hero-logo-container{
+    padding: 5% 15% 5% 15%;
+}
+.hero-logo-img{
+    height: 200px;
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    mix-blend-mode: darken;
+}
+.hero-testimonial-container{
+    background-color: #F4F7FA;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 8%;
+    text-align: center;
+    line-height: 30px;
+}
+.hero-testimonial-image{
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 10px;
+}
+.hero-testimonial-user{
+    line-height: 10px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.portfolio-img-div:hover img {
+    filter: sepia(50);
+    cursor:pointer
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)  { 
+    .hero-carousel-text{
+        left:0 !important
+    }
+    .hero-text-description{
+        font-size: 4rem;
+    }
+    .hero-story{
+        height: 90vh;
+    }
+   }

@@ -1,0 +1,47 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.logo-img{
+    height: 100px;
+    width: 100px;
+}
+.tab-selectors > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.tab-selectors > .active{
+    text-decoration: underline;
+}
+
+.tab-content-tile{
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+
+}
+.tile-head{
+    position: relative;
+}
+
+.tile-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    visibility: hidden;
+    color: green;
+}
+
+.tile-head:hover .tab-content-tile .tile-title{
+    visibility: visible;
+    background-color: rgba(255,255,255,0.5);
+}
