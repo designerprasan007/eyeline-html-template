@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         arrows : false,
         pagination: false,
         autoScroll: {
-        speed: 4,
+        speed: 1,
         pauseOnHover: false,
         pauseOnFocus: false,
         },

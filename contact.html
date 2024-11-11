@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/stylesheets/portfolio.css">
+    <link rel="stylesheet" href="./assets/stylesheets/footer.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/header.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.jpg">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "UGHFSC4t5-8fmVb0Z",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                console.log(this)
+                // these IDs from the previous steps
+                emailjs.sendForm("service_wxgohdr","template_z2f8ygq", this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./home.html">
+            <img src="./assets/images/logo.jpg" class="logo_header_img" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./capability.html"><span>Capabilities</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html"><span>Showcase</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html"><span>About</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><span>Contact Us</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <form class="container pt-5 m-5 text-center" id="contact-form">
+        <div class="mb-3">
+					<input type="text" class="form-control" required name="from_name" placeholder="Full Name">
+				</div>
+				<div class="mb-3">
+					<input type="email" class="form-control" required name="from_email" placeholder="Email Address">
+				</div>
+				<div class="mb-3">
+					<input type="number" class="form-control" required name="contact_number" placeholder="Cntact Number">
+				</div>
+				<div class="mb-3">
+					<textarea class="form-control" placeholder="Leave a comment here" name="message"></textarea>
+				</div>
+					<input type="text" name="to_name" hidden value="Eyeline">
+				<button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <!-- footer begin -->
+    <hr>
+    <div class="marquee py-5">
+        <p>Let's unlock the power of your story</p>
+    </div>
+    <hr>
+    <div class="container third_scroll_content pt-5">
+      <h2 class="text-center mt-5">Contact with us</h2>
+      <h5 class="text-center">
+        Have an idea brewing? A vision you want to share with the world? We’re all ears... and eyes. Reach out to start the conversation that could elevate your brand to the next level.
+      </h5>
+    <div class="row text-center py-3">
+      <div class="col social_links p-5">
+       <h2>Instagram</h2> 
+      </div>
+      <div class="col social_links p-5">
+       <h2>Facebook</h2> 
+      </div>
+      <div class="col social_links p-5">
+       <h2>Youtube</h2> 
+      </div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-md-9 col-sm-12">
+        <h3>Email: <a href="mailto:eyelinepictures@gmail.com">eyelinepictures@gmail.com</a></h3>
+        <h3>Phone: <a href="tel:+919742910758 ">+919742910758 </a> </h3>
+        <h3>Visit Us: 
+          <a href="https://maps.app.goo.gl/TN2Tmu6WTc1o6hWL9" target="_blank">
+            Eyeline Pictures
+          Shanti Sadan apt, G-4, Opp. Lele ground, Nehru Road, Tilakwadi
+          </a>
+          </h3>
+      </div>
+    </div>
+    </div>
+</body>
+</html>

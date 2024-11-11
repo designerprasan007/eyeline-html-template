@@ -43,5 +43,9 @@ html{
 
 .tile-head:hover .tab-content-tile .tile-title{
     visibility: visible;
-    background-color: rgba(255,255,255,0.5);
+    /* background-color: rgba(255,255,255,0.5); */
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black !important;
 }

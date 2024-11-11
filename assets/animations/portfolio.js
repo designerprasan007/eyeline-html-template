@@ -4,7 +4,7 @@ const mockData = [
         category:"CORPORATE", 
         data:"Vega",
         videoURL:"https://www.youtube.com/watch?v=zKmkEcG1TCk",
-        thumbnailURL:"http://i1.ytimg.com/vi/zKmkEcG1TCk/default.jpg",
+        thumbnailURL:"./assets/images/womensday-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/zKmkEcG1TCk?si=yENk054HctfRwYbB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
     },
@@ -13,7 +13,7 @@ const mockData = [
         category:"CORPORATE", 
         data:"IDMS",
         videoURL:"https://www.youtube.com/watch?v=baloS-8R2eQ",
-        thumbnailURL:"http://i1.ytimg.com/vi/baloS-8R2eQ/default.jpg",
+        thumbnailURL:"./assets/images/IDMS-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/baloS-8R2eQ?si=l__toNKQsh1Yt7SP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
     },
@@ -22,7 +22,7 @@ const mockData = [
         category:"CORPORATE", 
         data:"IDMS",
         videoURL:"https://www.youtube.com/watch?v=CAt1kRqwrHs",
-        thumbnailURL:"http://i1.ytimg.com/vi/CAt1kRqwrHs/default.jpg",
+        thumbnailURL:"./assets/images/IDMS2-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/CAt1kRqwrHs?si=Do0MrfgsY0ErkbzG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
     },
@@ -31,7 +31,7 @@ const mockData = [
         category:"CORPORATE", 
         data:"Mehandi Sarees",
         videoURL:"https://www.youtube.com/watch?v=xixMi-8yv9U",
-        thumbnailURL:"http://i1.ytimg.com/vi/xixMi-8yv9U/default.jpg",
+        thumbnailURL:"./assets/images/mehandi-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/xixMi-8yv9U?si=q7q-fAQ_Fe038lhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
     },
@@ -40,7 +40,7 @@ const mockData = [
         category:"CORPORATE", 
         data:"Expert Enterprises",
         videoURL:"https://youtu.be/Q-SV6hBSYvU",
-        thumbnailURL:"http://i1.ytimg.com/vi/Q-SV6hBSYvU/default.jpg",
+        thumbnailURL:"./assets/images/expert-enterprises-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/Q-SV6hBSYvU?si=ME4jd_ACUXWbA7w2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
     },
@@ -49,7 +49,7 @@ const mockData = [
         category:"CORPORATE", 
         data:"Covid Food Distribution",
         videoURL:"https://youtu.be/ZimTO8BS0Tk",
-        thumbnailURL:"http://i1.ytimg.com/vi/ZimTO8BS0Tk/default.jpg",
+        thumbnailURL:"./assets/images/Covid-food-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/ZimTO8BS0Tk?si=m7OE0036ZIn8oKDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
     },
@@ -58,7 +58,7 @@ const mockData = [
         category:"VIDEO", 
         data:"Tinka",
         videoURL:"https://www.youtube.com/watch?v=e5KAdU2yrNk",
-        thumbnailURL:"http://i1.ytimg.com/vi/e5KAdU2yrNk/default.jpg",
+        thumbnailURL:"./assets/images/Tinka-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/e5KAdU2yrNk?si=Mi9Oob1jVLcBOfEW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
     },
@@ -67,7 +67,7 @@ const mockData = [
         category:"VIDEO", 
         data:"Nirbhaya",
         videoURL:"https://www.youtube.com/watch?v=3hr9pOVAcYo",
-        thumbnailURL:"http://i1.ytimg.com/vi/3hr9pOVAcYo/default.jpg",
+        thumbnailURL:"./assets/images/Nirbhaya-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/3hr9pOVAcYo?si=4oOPkm1o9mhglerc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
     },
     {
@@ -96,7 +96,7 @@ const mockData = [
         category:"IN HOSUSE PRODUCTION", 
         data:"#505",
         videoURL:"https://www.youtube.com/watch?v=8TSU7fPqAEw",
-        thumbnailURL:"http://i1.ytimg.com/vi/8TSU7fPqAEw/default.jpg",
+        thumbnailURL:"./assets/images/505-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/8TSU7fPqAEw?si=9hMN_Vs3t3iA6gKj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
     },
@@ -105,7 +105,7 @@ const mockData = [
         category:"IN HOSUSE PRODUCTION", 
         data:"Two Wheeler",
         videoURL:"https://youtu.be/D9puxi1v7Fc",
-        thumbnailURL:"http://i1.ytimg.com/vi/D9puxi1v7Fc/default.jpg",
+        thumbnailURL:"./assets/images/2-wheeler-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/D9puxi1v7Fc?si=JZK4hzYW0uatxjvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
     },
     {
@@ -113,7 +113,7 @@ const mockData = [
         category:"IN HOSUSE PRODUCTION", 
         data:"Silhouette",
         videoURL:"https://www.youtube.com/watch?v=fZNx0dYvsuE&t=1087s",
-        thumbnailURL:"http://i1.ytimg.com/vi/fZNx0dYvsuE&t=1087s/default.jpg",
+        thumbnailURL:"./assets/images/Silhoute-yt.jpg",
         embedCode:'<iframe width="100%" height="500px" src="https://www.youtube.com/embed/fZNx0dYvsuE?si=d5KIknCgOB6an7Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
     }
@@ -169,9 +169,12 @@ function handleModal(e) {
             </div>`
         })
         document.getElementsByClassName("carousel-inner")[0].innerHTML = carouselHtmlData.join(" ")
+        $('.carousel-control-next').css({"display":"block"});
+        $('.carousel-control-prev').css({"display":"block"});
     } else {
-        console.log(tileData)
-        document.getElementsByClassName("carousel-inner")[0].innerHTML = tileData.embedCode
+        document.getElementsByClassName("carousel-inner")[0].innerHTML = tileData.embedCode;
+        $('.carousel-control-next').css({"display":"none"});
+        $('.carousel-control-prev').css({"display":"none"});
     }
     $('#fullScreenModel').modal('show');
 
@@ -179,3 +182,8 @@ function handleModal(e) {
         interval: 1000
       })
 }
+
+$('#fullScreenModel').on('hidden.bs.modal', function (e) {
+    // call your method
+    document.getElementsByClassName("carousel-inner")[0].innerHTML = ""
+ })
